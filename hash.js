@@ -1,4 +1,4 @@
-function hash(key, capacity) {
+export function hash(key, capacity) {
     let hashCode = 0;
 
     const primeNumber = 31;
