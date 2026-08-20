@@ -5,4 +5,8 @@ class HashMap {
         this.buckets = this.#createBuckets(this.capacity);
         this.size = 0;
     }
+
+    #createBuckets(capacity){
+        return Array.from({length: capacity}, () => []);
+    }
 }
